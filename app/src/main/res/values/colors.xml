@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E96161</color>
+    <color name="colorPrimaryDark">#BB2929</color>
+    <color name="colorAccent">#E96161</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="send_msg">#459CEC</color>
+    <color name="topbg">#C6CED5</color>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:sweet="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10.0dip">
+
+    <LinearLayout
+        android:id="@+id/mdiscussion1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="4.0">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3.0"
+            android:background="@drawable/cadr_send_msg"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_chat_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10.0dip"
+                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaa 10 aaaaaaaaaaaaaaaaaaaaaaaaaaaaa 10                                aaaaaaaadddddddbdhdhdhdhdjdjjdjdjjdjd"
+                android:textColor="@android:color/white"
+                android:textSize="7.0pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_chat_me"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5.0dip"
+                android:src="@drawable/ic_img_person"
+                sweet:civ_border_color="?colorPrimaryDark"
+                sweet:civ_circle_background_color="@color/send_msg" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
